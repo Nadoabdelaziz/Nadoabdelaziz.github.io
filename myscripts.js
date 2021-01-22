@@ -39,7 +39,7 @@ switch(value){
             runningtotal=0;
             break;
         
-        case "^":
+        case "←":
             if(buffer.length===1){
                 buffer="0";
             }
