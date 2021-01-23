@@ -97,6 +97,7 @@ function flushoperation(intbuffer){
         runningtotal*=intbuffer;
     }else if(previousoperator==="/"){
         runningtotal/=intbuffer;
+       runningtotal=runningtotal.toFixed(9);
     }
 }
 
